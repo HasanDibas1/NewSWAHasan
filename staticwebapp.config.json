@@ -9,11 +9,7 @@
       "allowedRoles": [
         "authenticated"
       ]
-    },
-    {
-      "route": "/Profile*",
-      "rewrite": "/General/index.html"      
-    }
+    }   
   ],
   "auth": {
     "rolesSource": "/api/GetRoles",
