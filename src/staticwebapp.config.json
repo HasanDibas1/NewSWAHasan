@@ -12,7 +12,7 @@
     }
   },  
   "auth": {
-    "rolesSource": "/api/GetRoles",
+    "rolesSource": "https://hd-swa-func-ahhfaufpc9e3atdx.northeurope-01.azurewebsites.net/api/GetRoles",
     "identityProviders": {
       "azureActiveDirectory": {
         "registration": {
